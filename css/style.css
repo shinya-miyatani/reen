@@ -27,8 +27,8 @@ input, button, textarea, select {
 }
 
 .conversion-btn {
-  color: #fff;
   background-color: #00bc9c;
+  color: #fff;
   cursor: pointer;
   transition: all .3s linear 0s;
 }
@@ -58,9 +58,9 @@ header {
 
 .head-add {
   display: table-cell;
-  vertical-align: middle;
   height: 40px;
   padding: 0 13px;
+  vertical-align: middle;
   cursor: pointer;
 }
 
@@ -74,8 +74,7 @@ header {
   background-image: url(../img/header/icon-mail-off.png);
 }
 
-.head-add:hover
-.head-add__mail {
+.head-add:hover .head-add__mail {
   background-image: url(../img/header/icon-mail-on.png);
   color: #00bc9c;
 }
@@ -230,8 +229,8 @@ main {
 }
 
 .main__top__btn:active {
-  box-shadow: none;
   transform: translateY(5px);
+  box-shadow: none;
 }
 
 .main__concept {
@@ -270,8 +269,8 @@ main {
 }
 
 .main-identity {
-  width: 570px;
   float: left;
+  width: 570px;
   margin-left: 30px;
   cursor: pointer;
 }
@@ -362,8 +361,8 @@ main {
 }
 
 .main__bottom__btn:active {
-  box-shadow: none;
   transform: translateY(4px);
+  box-shadow: none;
 }
 
 footer {
@@ -396,8 +395,8 @@ footer {
 }
 
 .menu-desc--more {
-  cursor: pointer;
   transition: transform .5s linear 0s;
+  cursor: pointer;
 }
 
 .menu-desc--more:hover {
@@ -411,8 +410,8 @@ footer {
 .menu__work__box {
   position: relative;
   float: left;
-  margin-bottom: 5px;
   height: 85px;
+  margin-bottom: 5px;
   background-color: #00bc9c;
   cursor: pointer;
 }
@@ -491,8 +490,8 @@ footer {
 }
 
 .subscribe-btn:active {
-  box-shadow: none;
   transform: translateY(2px);
+  box-shadow: none;
 }
 
 .footer__bottom {
@@ -500,7 +499,7 @@ footer {
   background-color: #2e3d4c;
 }
 
-.footer__bottom__CP {
+.footer__bottom__copy {
   float: left;
 }
 
