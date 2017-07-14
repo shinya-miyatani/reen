@@ -84,8 +84,7 @@ header {
   background-image: url(../img/header/icon-tel-off.png);
 }
 
-.head-add:hover
-.head-add__tel {
+.head-add:hover .head-add__tel {
   background-image: url(../img/header/icon-tel-on.png);
   color: #00bc9c;
 }
@@ -201,7 +200,7 @@ main {
 }
 
 .sec-desc {
-  padding: 30px 0 70px 0;
+  padding: 30px 0 70px;
   font-size: 22px;
   line-height: 33px;
 }
@@ -217,7 +216,7 @@ main {
 }
 
 .main__top__desc {
-  padding: 20px 0 50px 0;
+  padding: 20px 0 50px;
   color: #a3b1bf;
   font-size: 24px;
   line-height: 36px;
@@ -286,8 +285,7 @@ main {
   background-color: #00bc9c;
 }
 
-.main-identity:hover
-.main-identity__img {
+.main-identity:hover .main-identity__img {
   opacity: .1;
 }
 
@@ -296,8 +294,7 @@ main {
   background-color: #fff;
 }
 
-.main-identity:hover
-.caption-title {
+.main-identity:hover .caption-title {
   color: #00bc9c;
 }
 
@@ -315,8 +312,7 @@ main {
   font-size: 20px;
 }
 
-.main-identity:hover
-.main-identity__plus {
+.main-identity:hover .main-identity__plus {
   opacity: 1;
 }
 
@@ -336,13 +332,11 @@ main {
   margin-left: 0;
 }
 
-.sub-identity:hover
-.sub-identity__img {
+.sub-identity:hover .sub-identity__img {
   opacity: .1;
 }
 
-.sub-identity:hover
-.sub-identity__caption{
+.sub-identity:hover .sub-identity__caption{
   opacity: 1;
 }
 
@@ -423,8 +417,7 @@ footer {
   cursor: pointer;
 }
 
-.menu__work__box:hover
-.menu__work__img {
+.menu__work__box:hover .menu__work__img {
   opacity: .1;
 }
 
@@ -432,8 +425,7 @@ footer {
   font-size: 13px;
 }
 
-.menu__work__box:hover
-.menu__work__plus {
+.menu__work__box:hover .menu__work__plus {
   opacity: 1;
 }
 
@@ -483,7 +475,7 @@ footer {
 
 .subscribe-txt {
   padding: 10px 100px 10px 10px;
-  background-color: #a3b1bf;
+  background-color: #95a4b2;
   border-radius: 5px;
   font-size: 14px;
 }
